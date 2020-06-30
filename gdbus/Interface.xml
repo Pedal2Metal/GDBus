@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+  <interface name="com.gdbus.demo">
+    <method name="SetName">
+      <arg name="name" type="s" direction="in"/>
+      <arg name="response" type="s" direction="out"/>
+    </method>
+    <signal name="SendSignal">
+      <arg name="sig" type="i"/>
+    </signal>
+  </interface>
+</node>
+
